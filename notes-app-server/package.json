@@ -1,0 +1,21 @@
+{
+  "name": "notes-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",  
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js"  
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.2",
+    "prisma": "^6.1.0"
+  }
+}
